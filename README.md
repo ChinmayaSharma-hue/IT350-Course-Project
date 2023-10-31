@@ -9,7 +9,7 @@ A state-of-the-art implementation of PB-DID architecture for protocol based intr
 
 ### Instructions to Run
 
-1. Download the datasets in a folder named `datasets` in the root directory of the project. Put each dataset in a separate folder named `UNSW-NB15` and `Bot-IoT` respectively.
+1. Download both the datasets in a folder named `datasets` in the root directory of the project. Put each dataset in a separate folder named `UNSW-NB15` and `Bot-IoT` respectively.
 2. Run `pip install -r requirements.txt` to install all the dependencies.
 3. Run `data_cleaning_bot.iot.ipynb` and `data_cleaning_unsw.ipynb` to clean the datasets.
 4. Run `training.ipynb` to train the model.
